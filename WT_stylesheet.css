@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    font-family: "Times New Roman";
+    max-width: 1500px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1500px;
+    width: 100%;
+    
+    margin: 0 auto;
+}
+
+header{
+    height: 65px;
+    width: 100%;
+    margin: 0;
+    position: fixed;
+    background-color: rgba(34, 49, 52, 0.7);
+    top: 0;
+    z-index: 20;
+}
+
+.navbar-logo{
+    height: 65px;
+    width: 120px;
+}
+
+.navbar-left{
+    float: left;
+}
+
+.navbar-right{
+    float: right;
+    margin-right: 25px;
+}
+
+.navbar-right a{
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.navbar-right a:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.small{
+    font-size: 28px;
+}
+
+.punct{
+    color: red;
+}
+
+.top-wrapper{
+    padding: 180px 0 125px 0;
+    background-image: url(img/top-bg.jpg);
+    background-size: 100% 100%;
+    color: white;
+    border-bottom: 5px solid black;
+}
+
+.welcome{
+    text-align: center;
+    flex: auto;
+}
+
+.top-wrapper .container{
+    display: flex;
+    
+    margin: 0 auto;
+    
+}
+
+.welcome h1, h2, p{
+    color: #88b04b;
+}
+
+.welcome h1{
+    font-size: 38px;
+    line-height: 30px;
+}
+.welcome h2{
+    font-size: 34px;
+    font-weight: normal;
+}
+
+.welcome p{
+    padding: 0 20%;
+}
+.my-photo{
+    padding-top: 15px;
+    height: 150px;
+    width: 150px;
+}
