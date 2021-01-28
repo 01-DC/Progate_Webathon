@@ -217,6 +217,7 @@ header{
 .email{
     margin-top: 20px;
     background-color: #c71610;
+    cursor: text;
 }
 
 .gith{
