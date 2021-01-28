@@ -105,7 +105,7 @@ header{
 
 .project-wrapper{
     text-align: center;
-    padding: 25px 0 125px 0;
+    padding: 35px 0 125px 0;
     background-image: url(img/project-bg.jpg);
     background-size: 100% 100%;
     color: white;
@@ -146,4 +146,43 @@ header{
 
 .project-title a:hover{
     background-color: rgba(255,255,255,0.3);
+}
+
+.about-wrapper{
+    text-align: center;
+    padding: 35px 0 110px 0;
+    background-image: url(img/about-bg.jpg);
+    background-size: 100% 100%;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.about-wrapper h3{
+    font-size: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: inline;
+}
+
+.about-wrapper p{
+    margin: 5%;
+    background-color: rgba(0,0,0,0.45);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+.contact-wrapper{
+    text-align: center;
+    padding: 35px 0 125px 0;
+    background-image: url(img/contact-bg.jpg);
+    background-size: 100% 100%;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.contact-wrapper h3{
+    font-size: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: inline;
 }
