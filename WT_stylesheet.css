@@ -8,6 +8,12 @@ a{
     text-decoration: none;
 }
 
+@media all and (max-width: 670px){
+    .navbar-right{
+        display: none;
+    }
+}
+
 .container{
     max-width: 1500px;
     width: 100%;
@@ -98,7 +104,7 @@ header{
     padding: 0 20%;
 }
 .my-photo{
-    padding-top: 15px;
+    padding-top: 25px;
     height: 150px;
     width: 150px;
 }
@@ -185,4 +191,38 @@ header{
     border-top: 1px solid white;
     border-bottom: 1px solid white;
     display: inline;
+}
+
+.btn-wrapper{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn {
+  flex: auto;
+  margin: 15px auto;
+  padding: 12px 24px;
+  color: white;
+  opacity: 0.8;
+  border-radius: 7px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.btn:hover{
+    opacity: 1.0;
+}
+
+.email{
+    margin-top: 20px;
+    background-color: #c71610;
+}
+
+.gith{
+    background-color: black;
+}
+
+.linkedin{
+    background-color: #0e76a8;
 }
