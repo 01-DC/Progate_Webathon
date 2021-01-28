@@ -65,7 +65,7 @@ header{
     background-image: url(img/top-bg.jpg);
     background-size: 100% 100%;
     color: white;
-    border-bottom: 5px solid black;
+    border-bottom: 2px solid #88b04b;
 }
 
 .welcome{
@@ -100,4 +100,48 @@ header{
     padding-top: 15px;
     height: 150px;
     width: 150px;
+}
+
+.project-wrapper{
+    text-align: center;
+    padding: 25px 0 125px 0;
+    background-image: url(img/top-bg.jpg);
+    background-size: 100% 100%;
+    color: white;
+    border-bottom: 2px solid #88b04b;
+    
+}
+
+.project-wrapper h3{
+    font-size: 30px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: inline;
+}
+
+.project{
+    display: flex;
+    padding-top: 35px;
+}
+
+.project-title{
+    flex: auto;
+    background-color: black;
+    margin: 5%;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+
+.project-title:hover{
+    opacity: 0.85;
+    box-shadow: 3px 3px 3px white; 
+}
+
+.project-title a{
+    color: white;
+    transition: all 0.5s;
+}
+
+.project-title a:hover{
+    background-color: rgba(255,255,255,0.3);
 }
