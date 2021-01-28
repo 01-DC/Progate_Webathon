@@ -57,7 +57,7 @@ header{
 }
 
 .punct{
-    color: red;
+    color: #d3ff31;
 }
 
 .top-wrapper{
@@ -65,7 +65,7 @@ header{
     background-image: url(img/top-bg.jpg);
     background-size: 100% 100%;
     color: white;
-    border-bottom: 2px solid #88b04b;
+    border-bottom: 2px solid black;
 }
 
 .welcome{
@@ -80,8 +80,10 @@ header{
     
 }
 
-.welcome h1, h2, p{
-    color: #88b04b;
+.welcome h1,.welcome h2,.welcome p{
+    color: #f7cac9;
+    background-color: rgba(0,0,0,0.15);
+    border-radius: 10px;
 }
 
 .welcome h1{
@@ -90,7 +92,6 @@ header{
 }
 .welcome h2{
     font-size: 34px;
-    font-weight: normal;
 }
 
 .welcome p{
@@ -105,10 +106,10 @@ header{
 .project-wrapper{
     text-align: center;
     padding: 25px 0 125px 0;
-    background-image: url(img/top-bg.jpg);
+    background-image: url(img/project-bg.jpg);
     background-size: 100% 100%;
     color: white;
-    border-bottom: 2px solid #88b04b;
+    border-bottom: 2px solid black;
     
 }
 
@@ -130,6 +131,7 @@ header{
     margin: 5%;
     border-radius: 20px;
     transition: all 0.5s;
+    color: #feb236;
 }
 
 .project-title:hover{
